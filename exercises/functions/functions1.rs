@@ -3,8 +3,12 @@
 // Execute `rustlings hint functions1` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+
+fn call_me(x:i32) -> i32 {
+    println!("x: {}", x);
+    x
+}
 
 fn main() {
-    call_me();
+    call_me(10);
 }
